@@ -1,0 +1,12 @@
+[user]
+        email = derrick0714@amazon.com
+        name = Xu Deng
+[color]
+        ui = auto
+[core]
+        pager = less -FMRiX
+        excludesfile = ~/.gitignore
+[push]
+        default = simple
+[alias]
+        dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%ar%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
